@@ -1,0 +1,18 @@
+<?php
+# Copyright (c) 2019 brlumen (igflocal@gmail.com)
+# SearchRelatedIssue for MantisBT is free software: 
+# you can redistribute it and/or modify it under the terms of the GNU
+# General Public License as published by the Free Software Foundation, 
+# either version 2 of the License, or (at your option) any later version.
+#
+# SearchRelatedIssue plugin for for MantisBT is distributed in the hope 
+# that it will be useful, but WITHOUT ANY WARRANTY; without even the 
+# implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  
+# See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with SearchRelatedIssue plugin for MantisBT.  
+# If not, see <http://www.gnu.org/licenses/>.
+
+$s_plugin_SearchRelatedIssue_header_related_issue_list = 'Найдены похожие %1$s.';
+$s_plugin_SearchRelatedIssue_description = 'Плагин реализует живой поиск похожих задач во время создания новой задачи.';
