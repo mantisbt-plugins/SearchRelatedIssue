@@ -21,7 +21,7 @@ var summary_input;
 
 $(document).ready(function () {
 
-    $('[name=summary]').after('<li id="loader_area" style="list-style-type: none;" hidden=""><img id="loading_img" src="/plugin_file.php?file=SearchRelatedIssue/ajax-loader.gif"></li>');
+    $('[name=summary]').after('<li id="loader_area" style="list-style-type: none;" hidden=""><img id="loading_img" src="plugin_file.php?file=SearchRelatedIssue/ajax-loader.gif"></li>');
     loading_img = document.getElementById('loader_area');
 
     summary_input = document.getElementsByName('summary')[0];
@@ -53,7 +53,7 @@ function search_request(search_string, token) {
     current_request++;
     $.ajax({
         type: 'post',
-        url: '/plugin.php?page=SearchRelatedIssue/search',
+        url: 'plugin.php?page=SearchRelatedIssue/search',
         data: {
             'referal': search_string,
             'bug_report_token': token,
