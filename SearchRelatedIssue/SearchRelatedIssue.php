@@ -21,7 +21,7 @@ class SearchRelatedIssuePlugin extends MantisPlugin {
         $this->name        = 'SearchRelatedIssue';
         $this->description = plugin_lang_get( 'description' );
 
-        $this->version  = '1.0.1-dev';
+        $this->version  = '1.0.1';
         $this->requires = array(
                                   'MantisCore' => '2.0.0',
         );
